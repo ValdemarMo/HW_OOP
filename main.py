@@ -80,7 +80,7 @@ class Reviewer(Mentor):
 
 ################################################################
 #Полевые испытания
-student_1 = Student('Ruoy', 'Eman', 'your_gender')
+student_1 = Student('Archie', 'Fisher', 'your_gender')
 student_1.finished_courses += ['Git']
 student_1.courses_in_progress += ['Python']
 student_1.courses_in_progress += ['Введение в программирование']
@@ -88,28 +88,28 @@ student_1.grades['Git'] = [10, 10, 10, 7, 10]
 student_1.grades['Python'] = [10, 10]
 student_1.grades['Введение в программирование'] = [1, 10]
 
-student_2 = Student('Elvis', 'Eman', 'your_gender')
+student_2 = Student('Bert', 'Jansch', 'your_gender')
 student_2.finished_courses += ['Git']
 student_2.courses_in_progress += ['Python']
 student_2.grades['Git'] = [8, 7, 9, 5, 10]
 student_2.grades['Python'] = [7, 8]
 
-lecturer_1 = Lecturer('Kapiza', 'X0')
+lecturer_1 = Lecturer('Patti', 'Smith')
 lecturer_1.courses_attached = ['Python']
 lecturer_1.grades['Python'] = [10, 8, 1, 3]
 
-lecturer_2 = Lecturer('Medeleev', 'X1')
+lecturer_2 = Lecturer('Siouxsie', 'Sioux')
 lecturer_2.courses_attached = ['Git']
 lecturer_2.grades['Git'] = [10, 10, 9]
 
-lecturer_3 = Lecturer('Gagarin', 'X2')
+lecturer_3 = Lecturer('Lee', 'Wiley')
 lecturer_3.courses_attached = ['Git']
 lecturer_3.grades['Git'] = [8, 9, 1, 3, 2, 4]
 
-reviewer_1 = Reviewer('Pushkin', 'R1')
+reviewer_1 = Reviewer('John', 'Cale')
 reviewer_1.courses_attached = ['Git']
 
-reviewer_2 = Reviewer('Kukushkin', 'R2')
+reviewer_2 = Reviewer('Daisy', 'Chainsaw')
 reviewer_2.courses_attached = ['Python']
 
 #тестирование перезагрузки магических методов
