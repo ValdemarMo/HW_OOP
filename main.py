@@ -165,7 +165,7 @@ print(f"курса Python - {round(mid_grade_course(student_list, 'Python'),2)}"
 print(f"курса Введение в программирование - {round(mid_grade_course(student_list, 'Введение в программирование'),2)}")
 
 print(f'\nЗадание № 4.2:\n')
-lecturers_list = ['lecturer_1', 'lecturer_2']
+lecturers_list = ['lecturer_1', 'lecturer_2', 'lecturer_3']
 
 print(f'средние оценки по лекциям для всех лекторов\n')
 print(f"курса Git - {round(mid_grade_course(lecturers_list, 'Git'),2)}")
