@@ -96,7 +96,7 @@ student_2.grades['Python'] = [7, 8]
 
 lecturer_1 = Lecturer('Kapiza', 'X0')
 lecturer_1.courses_attached = ['Python']
-lecturer_1.grades['Python'] = [10, 8]
+lecturer_1.grades['Python'] = [10, 8, 1, 3]
 
 lecturer_2 = Lecturer('Medeleev', 'X1')
 lecturer_2.courses_attached = ['Git']
@@ -104,15 +104,13 @@ lecturer_2.grades['Git'] = [10, 10, 9]
 
 lecturer_3 = Lecturer('Gagarin', 'X2')
 lecturer_3.courses_attached = ['Git']
-lecturer_3.grades['Git'] = [8, 9]
+lecturer_3.grades['Git'] = [8, 9, 1, 3, 2, 4]
 
 reviewer_1 = Reviewer('Pushkin', 'R1')
 reviewer_1.courses_attached = ['Git']
-reviewer_1.grades = [7, 5, 9]
 
 reviewer_2 = Reviewer('Kukushkin', 'R2')
 reviewer_2.courses_attached = ['Python']
-reviewer_2.grades = [7, 8, 9, 10, 5]
 
 #тестирование перезагрузки магических методов
 print(f'\nтестирование стандартного вывода (Задание № 3.1)\n')
