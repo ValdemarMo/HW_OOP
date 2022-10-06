@@ -169,7 +169,3 @@ print(f'средние оценки по лекциям для всех лект
 print(f"курса Git - {round(mid_grade_course(lecturers_list, 'Git'),2)}")
 print(f"курса Python - {round(mid_grade_course(lecturers_list, 'Python'),2)}")
 print(f"курса Введение в программирование - {round(mid_grade_course(lecturers_list, 'Введение в программирование'),2)}")
-
-# course_list = ['Git', 'Python', 'Введение в программирование']
-
-
